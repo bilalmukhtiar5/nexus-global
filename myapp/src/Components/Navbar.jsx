@@ -1,34 +1,33 @@
 import React from 'react'
-import './Navbar.css'
-
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
   return (
     <>
     <nav class="navbar navbar-expand-lg bg-light navigation-menu">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+  <div class="container">
+    <Link class="navbar-brand" to="/">
       <img src="logo.webp" alt="" style={{width: '60%'}} />
-    </a>
+    </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <Link class="nav-link active" aria-current="page" to="/">HOME</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">OUR STORY</a>
+          <Link class="nav-link active" aria-current="page" to="/">OUR STORY</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">SOLUTIONS</a>
+          <Link class="nav-link active" aria-current="page" to="/">SOLUTIONS</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">LINKS</a>
+          <Link class="nav-link active" aria-current="page" to="/">LINKS</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+          <Link class="nav-link active" aria-current="page" to="/">CONTACT</Link>
         </li>
         
       </ul>
