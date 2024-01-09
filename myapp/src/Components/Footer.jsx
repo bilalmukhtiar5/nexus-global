@@ -44,7 +44,7 @@ const Footer = () => {
   
 </div>
         </div>
-
+            <p className='text-center bold'>NEXUS GLOBAL MARKETING GROUP 2001-2023 ALL RIGHTS RESERVED</p>
     </footer>
     
     
