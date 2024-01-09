@@ -6,7 +6,7 @@ import { RiInstagramFill,RiTwitterXFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <>
-    <footer className='bg-primary'>
+    <footer className='bg-primary footer-background'>
         
         <div class="container-fluid text-center mt-5 p-5">
   <div class="row align-items-start">
