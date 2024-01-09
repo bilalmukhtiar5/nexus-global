@@ -33,7 +33,7 @@ const Navbar = () => {
       </ul>
       
     </div>
-    <button className='btn btn-primary'>Contact Us</button>
+    <button className='btn btn-primary'>FREE STRETAGY CALL</button>
   </div>
 </nav>
     

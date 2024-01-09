@@ -4,6 +4,8 @@ import Banner from "./Components/Banner";
 import Services from "./Components/Services";
 import Marketing from "./Components/Marketing";
 import Accordian from "./Components/Accordian";
+import Footer from "./Components/Footer";
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Services />
       <Marketing />
       <Accordian />
+      <Footer/>
     </>
   );
 }
