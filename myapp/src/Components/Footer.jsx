@@ -12,25 +12,25 @@ const Footer = () => {
   <div class="row align-items-start">
     <div class="col">
         
-      <h4 className='text-light px-3'>NEXUS GLOBAL DIGITAL MARKETING GROUP 2023</h4>
-      <img src="logo.webp" alt="" style={{width: '20%'}} />
+      <h4 className='text-light px-5'>NEXUS GLOBAL DIGITAL MARKETING GROUP 2023</h4>
+      <img src="logo.webp" alt="" style={{width: '12%'}} />
       <h5 className='mt-3 text-light'>hello@nexusglobalai.com</h5>
       <h6 className='mt-3 text-light'>Seattle: 206-577-4005</h6>
       <h6 className='mt-3 text-light'>Toronto: 416-691-0778</h6>
-      <h6 className='mt-3 text-light'>Vancouver : 604-800-8871</h6>
+      <h6 className='mt-3 text-light'><span>Vancouver:</span> 604-800-8871</h6>
       <h6 className='mt-3 text-light'>1-888-340-4899</h6>
       <h6 className='text-light'>Monday-Saturday 6:00am-6:00pm PST</h6>
       <button className='btn btn-danger'>Free Stretegy Call</button>
     </div>
     <div class="col">
     <h3 className='text-light'>Ai Based Solutions</h3>
-    <p className='text-light'>Are you tired of spending hours on manual tasks such as keyword research and on-page
+    <p className='text-light px-5 mx-4'>Are you tired of spending hours on manual tasks such as keyword research and on-page
     optimization? Do you struggle to come up with fresh and relevant content ideas?
     Are you looking to streamline your online marketing efforts and save time and resources?</p>
     <br/>
-    <p className='text-light'>If so, our AI-powered solutions are here to help.</p>
+    <p className='text-light px-5 mx-4'>If so, our AI-powered solutions are here to help.</p>
     <br/>
-    <p className='text-light'>With over $500,000 in Tools and Assets and over 120 team members we can help create 
+    <p className='text-light px-5 mx-4 '>With over $500,000 in Tools and Assets and over 120 team members we can help create 
     amazing results for your business.</p>
 
     </div>

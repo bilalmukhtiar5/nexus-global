@@ -5,7 +5,7 @@ import Services from "./Components/Services";
 import Marketing from "./Components/Marketing";
 import Accordian from "./Components/Accordian";
 import Footer from "./Components/Footer";
-
+import Testimonials from './Components/Testimonials'
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <Banner />
       <Services />
       <Marketing />
+      <Testimonials/>
       <Accordian />
       <Footer/>
     </>
