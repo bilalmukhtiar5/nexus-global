@@ -10,7 +10,7 @@ const Footer = () => {
         
         <div class="container-fluid text-center mt-5 p-5">
   <div class="row align-items-start">
-    <div class="col">
+    <div class="col-lg-4 col-md-6 col-sm-12 ">
         
       <h4 className='text-light px-5'>NEXUS GLOBAL DIGITAL MARKETING GROUP 2023</h4>
       <img src="logo.webp" alt="" style={{width: '12%'}} />
@@ -22,7 +22,7 @@ const Footer = () => {
       <h6 className='text-light'>Monday-Saturday 6:00am-6:00pm PST</h6>
       <button className='btn btn-danger'>Free Stretegy Call</button>
     </div>
-    <div class="col">
+    <div class="col-lg-4 col-md-6 col-sm-12 ">
     <h3 className='text-light'>Ai Based Solutions</h3>
     <p className='text-light px-5 mx-4'>Are you tired of spending hours on manual tasks such as keyword research and on-page
     optimization? Do you struggle to come up with fresh and relevant content ideas?
@@ -35,7 +35,7 @@ const Footer = () => {
 
     </div>
     
-    <div class="col">
+    <div class="col-lg-4 col-md-6 col-sm-12 ">
     <h4 className='text-light mt-3'>Get Social</h4>
     <FaFacebookSquare className='mt-3 g-2' style={{color: '', fontSize: '30px'}}/>
     <RiInstagramFill className='mt-3 g-2' style={{color: '', fontSize: '30px'}}/>

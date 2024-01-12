@@ -17,3 +17,6 @@ body{
 .navigation-menu {
   background-color: #072951;
 }
+.bg-primary {
+  background-color: #072951!important;
+}
